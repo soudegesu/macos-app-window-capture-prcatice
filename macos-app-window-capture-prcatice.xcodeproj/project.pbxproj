@@ -14,6 +14,7 @@
 		9B43ABC7260A303900969473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B43ABC5260A303900969473 /* Main.storyboard */; };
 		9B43ABD3260A303900969473 /* macos_app_window_capture_prcaticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ABD2260A303900969473 /* macos_app_window_capture_prcaticeTests.swift */; };
 		9B43ABDE260A303900969473 /* macos_app_window_capture_prcaticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ABDD260A303900969473 /* macos_app_window_capture_prcaticeUITests.swift */; };
+		9B43ABEF260A312900969473 /* WindowUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ABEE260A312900969473 /* WindowUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9B43ABD9260A303900969473 /* macos-app-window-capture-prcaticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-app-window-capture-prcaticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B43ABDD260A303900969473 /* macos_app_window_capture_prcaticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_app_window_capture_prcaticeUITests.swift; sourceTree = "<group>"; };
 		9B43ABDF260A303900969473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B43ABEE260A312900969473 /* WindowUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				9B43ABC5260A303900969473 /* Main.storyboard */,
 				9B43ABC8260A303900969473 /* Info.plist */,
 				9B43ABC9260A303900969473 /* macos_app_window_capture_prcatice.entitlements */,
+				9B43ABEE260A312900969473 /* WindowUtility.swift */,
 				9B43ABC2260A303900969473 /* Preview Content */,
 			);
 			path = "macos-app-window-capture-prcatice";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B43ABBF260A303800969473 /* ContentView.swift in Sources */,
+				9B43ABEF260A312900969473 /* WindowUtility.swift in Sources */,
 				9B43ABBD260A303800969473 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
